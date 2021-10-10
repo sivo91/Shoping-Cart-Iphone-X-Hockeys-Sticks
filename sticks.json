@@ -1,0 +1,23 @@
+[
+    {
+      "id": "1",
+      "price": "35",
+      "img": "../stick.png",
+      "title":"Sher-Wood",
+      "description": "Wood Stick"
+    },
+    {
+      "id": "2",
+      "price": "65",
+      "img": "../bauer1.png",
+      "title":"Bauer Flex",
+      "description": "Nexus ADV"
+    },
+    {
+      "id": "3",
+      "price": "45",
+      "img": "../buer.png",
+      "title":"Bauer Super",
+      "description": "Supreme Ultrasonic"
+    }
+  ]

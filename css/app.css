@@ -1,0 +1,144 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.html {
+  scroll-behavior: smooth;
+}
+
+.iphoneX {
+  position: fixed;
+  top: 35px;
+  left: 45%;
+  width: 300px;
+  height: 700px;
+  border: 10px solid black;
+  border-radius: 40px;
+  overflow: hidden;
+}
+
+.time {
+  position: relative;
+  top: -2px;
+  left: -15px;
+}
+
+.top {
+  background-color: rgb(240, 234, 234);
+  border-bottom: 1px solid rgb(182, 171, 171);
+  z-index: 9;
+  position: relative;
+  top: -2px;
+}
+
+header {
+  position: relative;
+  display: flex;
+  left: 14%;
+  z-index: 9;
+}
+
+.topborder {
+  position: relative;
+  width: 53%;
+  height: 23px;
+  left: 0 auto;
+  top: -1px;
+  background-color: black;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  z-index: 9;
+}
+
+.topborder strong {
+  position: relative;
+  left: 10px;
+}
+
+.icons-top {
+  font-size: 13px;
+  margin: 5px 1px 0 1px;
+}
+
+.url {
+  display: flex;
+  margin: 5px;
+  height: 25px;
+  background-color: gainsboro;
+  border-radius: 5px;
+  justify-content: center;
+}
+
+.lupa {
+  position: relative;
+  top: 2.5px;
+  margin: 5px;
+  opacity: 0.6;
+  font-size: 11px;
+}
+
+.title {
+  background-color: rgb(109, 109, 161);
+}
+
+/* title */
+.titlebox {
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.titlebox .puck {
+  width: 20px;
+  margin: 3px 9px 0 0;
+}
+
+.titlebox h6 {
+  color: white;
+  margin-top: 6px;
+}
+
+.cart-icon {
+  color: rgb(245, 196, 34);
+  cursor: pointer;
+  position: relative;
+  left: 50px;
+}
+
+.cart-it {
+  position: relative;
+  font-size: 10px;
+  top: -7px;
+  left: -7px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  padding: 2px 5px;
+  color: red;
+  border: 0.2px solid red;
+  z-index: 88;
+}
+
+/* main panel */
+.mainpanel::-webkit-scrollbar {
+  display: none;
+}
+
+.mainpanel {
+  position: relative;
+  width: 100%;
+  height: 560px;
+  /* overflow: scroll; */
+  -ms-overflow-style: none;
+  overflow-y: scroll;
+}
+
+.sticks {
+  margin: 10px;
+}
+
+.card-img-top {
+  width: 200px !important;
+}
