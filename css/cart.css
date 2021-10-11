@@ -94,8 +94,8 @@
 
 .cart-footer {
   position: fixed;
-  margin-left: .9%;
-  width: 250px;
+  margin: 0 auto;
+  width: 280px;
   margin-top: 1%;
   border-radius: 9px;
   text-align: center;
@@ -107,5 +107,26 @@
   border-radius: 9px;
   position: relative;
   top: -5px;
+}
+
+@media only screen and (max-width: 375px) and (max-height: 730px){
+ 
+ .cart-panel {
+  position: fixed;
+  top: 137px;
+  width: 280px;
+  height: 588px;
+  background-color: blanchedalmond;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  visibility: hidden;
+  z-index: 388833;
+   overflow-y: scroll;
+   transform: scale(.7);
+}
+
+
+
+
 }
 
